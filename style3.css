@@ -2,9 +2,9 @@
 /* CSS Document */
 body{
 	display:block;
-	float:left;
     position:relative;
-    left:20%;
+    margin:0 auto; 
+	width:1120px;
 }
 
 .menu{
