@@ -1,0 +1,188 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	display:block;
+	float:left;
+    position:relative;
+    left:20%;
+}
+
+.menu{
+	height: 18px;
+	text-align: right;
+	top: 66px;
+	position: absolute;
+	left: 440px;
+}
+
+.menu a{
+	display:inline-block;
+	border-right-color: rgb(230, 230, 230);
+    border-right-style: solid;
+    border-right-width: 1px;
+	font-family: Tahoma;
+    font-size: 14px;
+	color:#666;
+	padding-left: 16px;
+    padding-right: 16px;
+}
+
+.right{
+	display:block;
+	float:right;
+	width:384px;
+    margin-right: 48px;
+	padding-top:112px;
+	font-family: Tahoma;
+    font-size: 12px;
+	border-left-color: rgb(209, 209, 209);
+    border-left-style: solid;
+    border-left-width: 1px;
+    padding-left:20px
+}
+
+.right .title h2{
+	font-family: "Microsoft YaHei UI";
+    font-size: 22px;
+	padding-left: 5px;
+}
+
+.right .author .tjA img{
+	float:left;
+	margin-right: 24px;
+}
+
+.right .author .tjA h2{
+	font-family: "Microsoft YaHei UI";
+    font-size: 20px;
+}
+
+.right .author .jtA p{
+	color: rgb(153, 153, 153);
+    display: block;
+    font-family: Tahoma;
+    font-size: 12px;
+	margin-right: 84px;
+}
+
+.right .author .jtA h3{
+	color: rgb(62, 114, 161);
+    font-family: Tahoma;
+	font-size: 14px;
+}
+
+.left{	
+	display:block;
+	float:left;
+	width:640px;
+	margin-top:50px;
+	padding-right:20px;
+}
+
+.left .nav{
+	border-bottom-color: rgb(226, 226, 226);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+	margin-bottom: 13px;
+    width:640px;
+}
+
+.left .nav strong.home{
+	font-family: "Microsoft YaHei UI";
+    font-size: 18px;
+	padding-bottom: 8px;
+    padding-left: 6px;
+    padding-right: 6px;
+	margin-right: 16px;
+	border-bottom-color: rgb(51, 51, 51);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    color: rgb(102, 102, 102);
+    display: inline-block;
+}
+
+.left .nav strong.column,.left .nav strong.rank{
+    margin-right: 16px;
+	padding-bottom: 8px;
+    padding-left: 6px;
+    padding-right: 6px;
+	border-bottom-color: rgb(226, 226, 226);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    color: rgb(204, 204, 204);
+    display: inline-block;
+    font-family: "Microsoft YaHei UI";
+    font-size: 18px;
+}
+
+.left .recommend{
+    padding-top: 18px;
+    position: relative;
+    width: 640px;
+}
+
+.left .recommend img{
+	cursor: pointer;
+    display: inline;
+}
+
+.left .recommend a h2{
+	position: absolute;
+    left: 8px;
+    bottom: 42px;
+    font: 26px/28px "Microsoft YaHei UI";
+    color: #fff;
+    padding: 8px;
+    background: rgba(0,0,0,0.6);
+    white-space: nowrap;
+	margin: 0 auto;
+	display: block;
+}
+	
+.left .recommend a h3{
+    position: absolute;
+    left: 8px;
+    bottom: 11px;
+    font: 12px/14px 'Tahoma';
+    color: #fff;
+    padding: 6px;
+    background: rgba(0,0,0,0.6);
+    background: #333\0;
+    white-space: nowrap;
+	margin: 0 auto;
+}
+
+.left .articles .wzA{
+	border-bottom-color: rgb(242, 242, 240);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    position: relative;
+}
+
+.left .articles .wzA h2 a{
+	color: rgb(51, 51, 51);
+    font-family: "Microsoft YaHei";
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.left .articles .wzA h3 img{
+	float:left;
+}
+
+.left .articles .wzA h4 p{
+	padding-left: 207px;
+	color: rgb(51, 51, 51);
+    display: block;
+    font-family: Tahoma;
+    font-size: 14px;
+}
+
+a:link {color:#000;text-decoration:none;}
+a:visited {color:#999;text-decoration:none;}
+a:hover {color:#999;text-decoration:none;}
+a:active {color:#999;text-decoration:none;}
