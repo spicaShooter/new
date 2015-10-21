@@ -34,7 +34,7 @@ body{
 .right{
 	display:block;
 	float:right;
-	width:384px;
+	width:390px;
     margin-right: 48px;
 	padding-top:100px;
 	font-family: Tahoma;
@@ -53,26 +53,28 @@ body{
 
 .right .author .tjA img{
 	float:left;
-	margin-right: 24px;
+	margin-right: 20px;
 }
 
 .right .author .tjA h2{
 	font-family: "Microsoft YaHei";
     font-size: 20px;
+	vertical-align:top;
+	margin-bottom:1px;
 }
 
-.right .author .jtA p{
+.right .author .tjA p{
 	color: rgb(153, 153, 153);
-    display: block;
     font-family: Tahoma;
     font-size: 12px;
-	margin-right: 84px;
+	margin-bottom:1px;
 }
 
-.right .author .jtA h3{
+.right .author .tjA h3{
 	color: rgb(62, 114, 161);
     font-family: Tahoma;
 	font-size: 14px;
+	margin-bottom:1px;
 }
 
 .left{	
